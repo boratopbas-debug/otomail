@@ -4,6 +4,7 @@
 
 [functions]
   node_bundler = "esbuild"
+  external_node_modules = ["pdfjs-dist", "@napi-rs/canvas"]
 
 [[redirects]]
   from = "/api/test"
@@ -19,3 +20,4 @@
   from = "/api/send-now"
   to = "/.netlify/functions/send-background"
   status = 200
+
